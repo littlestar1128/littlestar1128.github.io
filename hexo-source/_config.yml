@@ -1,0 +1,31 @@
+# Minimal Hexo config generated from existing static site
+title: "Leo's Blog"
+author: LiuXin
+language: zh-CN
+timezone: Asia/Shanghai
+url: "http://littlestar1128.top"
+root: /
+permalink: :year/:month/:day/:title/
+theme: butterfly
+
+# Plugins (optional)
+plugins:
+  - hexo-generator-index
+  - hexo-generator-archive
+  - hexo-generator-category
+  - hexo-generator-tag
+
+# Theme example settings (butterfly) - tune these in theme configuration or here
+meta:
+  description: "生活明朗，万物可爱"
+
+# Deploy (example using hexo-deployer-git)
+# To enable automatic deploy via GitHub Actions, install hexo-deployer-git and configure deploy:
+# Deploy example (hexo-deployer-git)
+# Replace <your-username> and <repo> with your target repository
+deploy:
+  type: git
+  repo: https://github.com/littlestar1128/littlestar1128.github.io.git
+  branch: gh-pages
+
+# If you prefer GitHub Actions deployment, the workflow is already included at .github/workflows/hexo-deploy.yml

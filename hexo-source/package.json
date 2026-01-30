@@ -1,0 +1,21 @@
+{
+  "name": "littlestar-hexo-source",
+  "version": "1.0.0",
+  "description": "Hexo source skeleton generated from static site. Install theme 'butterfly' and run Hexo to build.",
+  "scripts": {
+    "start": "hexo server",
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy"
+  },
+  "dependencies": {
+    "hexo": "^7.2.0",
+  "hexo-server": "^4.0.0",
+  "hexo-deployer-git": "^4.0.0"
+  },
+  "devDependencies": {
+    "hexo-renderer-pug": "^2.0.0",
+    "hexo-renderer-stylus": "^1.0.0"
+  }
+
+}
