@@ -1,0 +1,75 @@
+# Project-specific overrides for hexo-theme-butterfly.
+# The theme's complete defaults live in node_modules/hexo-theme-butterfly/_config.yml.
+
+menu:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
+
+social:
+  fab fa-github: https://github.com/littlestar1128/ || Github || '#24292e'
+  fas fa-envelope: mailto:2628387940@qq.com || Email || '#4a7dbe'
+
+favicon: /img/favicon.png
+
+avatar:
+  img: /assets/touxiang.jpg
+  effect: false
+
+default_top_img: /assets/xuanwuhu.jpg
+index_img: /assets/xuanwuhu.jpg
+archive_img: /assets/xuanwuhu.jpg
+tag_img: /assets/xuanwuhu.jpg
+category_img: /assets/xuanwuhu.jpg
+
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  default_cover:
+    - /image/cat/fantong1.jpg
+
+error_img:
+  flink: /img/friend_404.gif
+  post_page: /img/404.jpg
+
+error_404:
+  enable: true
+  subtitle: 页面没有找到
+  background: /img/404.jpg
+
+subtitle:
+  enable: true
+  effect: true
+  typed_option:
+  source: false
+  sub:
+    - 生活明朗，万物可爱
+
+aside:
+  card_author:
+    enable: true
+    description: 生活明朗，万物可爱
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/littlestar1128/
+  card_announcement:
+    enable: true
+    content: Welcome to Leo's Blog
+
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/universe.css">
+  bottom:
+    - <canvas id="universe"></canvas>
+    - <script defer src="/js/universe.js"></script>

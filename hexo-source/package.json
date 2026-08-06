@@ -1,21 +1,33 @@
 {
   "name": "littlestar-hexo-source",
-  "version": "1.0.0",
-  "description": "Hexo source skeleton generated from static site. Install theme 'butterfly' and run Hexo to build.",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Leo's Blog, powered by Hexo and Butterfly.",
   "scripts": {
-    "start": "hexo server",
-    "build": "hexo generate",
     "clean": "hexo clean",
+    "build": "hexo generate",
+    "server": "hexo server",
+    "start": "hexo server",
+    "new": "hexo new",
     "deploy": "hexo deploy"
   },
-  "dependencies": {
-    "hexo": "^7.2.0",
-  "hexo-server": "^4.0.0",
-  "hexo-deployer-git": "^4.0.0"
+  "engines": {
+    "node": ">=20.19.0"
   },
-  "devDependencies": {
-    "hexo-renderer-pug": "^2.0.0",
-    "hexo-renderer-stylus": "^1.0.0"
+  "dependencies": {
+    "hexo": "^8.1.2",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-butterfly": "^5.7.0"
+  },
+  "hexo": {
+    "version": "8.1.2"
   }
-
 }

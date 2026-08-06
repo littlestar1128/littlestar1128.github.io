@@ -1,52 +1,48 @@
-Hexo source skeleton generated from static output.
+# Leo's Blog - Hexo source
 
-Usage:
+This directory is the maintainable Hexo project. The repository root contains
+the old generated static site and is kept as a backup.
 
-1. Install dependencies:
+## First setup on a new computer
 
-```
-cd hexo-source
-npm install
-```
+Install Node.js 20.19 or newer and Git, then run:
 
-2. Install Butterfly theme:
-
-```
-git clone https://github.com/jerryc127/hexo-theme-butterfly themes/butterfly
-# then configure theme in _config.yml if needed
-```
-
-3. Run locally:
-
-```
-npm run start
-```
-
-This project contains two imported posts converted from the static site.
-
-Notes:
-- Static resources (css/js/images/assets) from the original static site have been copied into `hexo-source/source/` so the imported posts reference should work without extra changes.
-
-Theme and build notes:
-- Clone the Butterfly theme into `themes/butterfly` (recommended):
-	```powershell
-	git clone https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
-	```
-- Install pug/stylus renderers (required by the theme):
-	```powershell
-	npm install hexo-renderer-pug hexo-renderer-stylus --save
-	```
-
-Local build (Windows PowerShell):
 ```powershell
-cd hexo-source
-# ensure Node.js and npm are installed
-npm install
-npm run start
+cd D:\web\littlestar\hexo-source
+npm.cmd ci
+npm.cmd run server
 ```
 
-CI / Deploy:
-- A GitHub Actions workflow `.github/workflows/hexo-deploy.yml` is included to build and deploy `hexo-source/public` to the `gh-pages` branch. Configure the deploy repository in `_config.yml` or use the provided action which publishes the generated `public` folder.
-  
-Example: the deploy repo has been set to `https://github.com/littlestar1128/littlestar1128.github.io.git` in `_config.yml` — change it if you want to deploy to a different repository.
+Open <http://localhost:4000/>.
 
+The project uses a local Hexo installation, so installing `hexo-cli` globally
+is not required. `npm.cmd` is used in the examples because some Windows
+PowerShell installations block the `npm.ps1` wrapper.
+
+## Common commands
+
+```powershell
+# Create a post
+npm.cmd run new -- "文章标题"
+
+# Clean and build static files into public/
+npm.cmd run clean
+npm.cmd run build
+
+# Preview locally
+npm.cmd run server
+
+# Manual deployment to gh-pages
+npm.cmd run deploy
+```
+
+## Content and configuration
+
+- Posts: `source/_posts/`
+- Static images: `source/image/` and `source/assets/`
+- Hexo configuration: `_config.yml`
+- Butterfly overrides: `_config.butterfly.yml`
+
+The former custom domain `littlestar1128.top` is not included in the generated
+site because it currently resolves to a parking page. Restore its DNS before
+adding `source/CNAME` and changing `url` back to the custom domain.

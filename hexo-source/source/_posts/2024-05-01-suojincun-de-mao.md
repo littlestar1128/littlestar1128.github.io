@@ -1,5 +1,7 @@
 ---
 title: "锁金村的猫"
+slug: 锁金村的猫
+permalink: /2024/05/01/锁金村的猫/
 date: 2024-05-01 07:40:45
 updated: 2024-05-02 14:50:15
 author: "LiuXin"
@@ -25,7 +27,7 @@ categories:
 <这是一只三花大坐猫>
 ```
 
-![打坐](/image/cat/dazuo.jpg)
+![打坐](/image/cat/sanhua.jpg)
 
 ### 教室里的猫猫
 

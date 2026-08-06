@@ -1,31 +1,69 @@
-# Minimal Hexo config generated from existing static site
+# Site
 title: "Leo's Blog"
+subtitle: 一个有趣的博客
+description: 生活明朗，万物可爱
+keywords:
+  - Hexo
+  - 博客
 author: LiuXin
 language: zh-CN
 timezone: Asia/Shanghai
-url: "http://littlestar1128.top"
+
+# URL
+# The old custom domain currently resolves to a parking page. Use the GitHub
+# Pages address until its DNS records have been restored.
+url: https://littlestar1128.github.io
 root: /
 permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ""
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ""
+  wrap: true
+  hljs: false
+
+# Home page and archive
+index_generator:
+  path: ""
+  per_page: 10
+  order_by: -date
+per_page: 10
+pagination_dir: page
+
+# Theme
 theme: butterfly
 
-# Plugins (optional)
-plugins:
-  - hexo-generator-index
-  - hexo-generator-archive
-  - hexo-generator-category
-  - hexo-generator-tag
-
-# Theme example settings (butterfly) - tune these in theme configuration or here
-meta:
-  description: "生活明朗，万物可爱"
-
-# Deploy (example using hexo-deployer-git)
-# To enable automatic deploy via GitHub Actions, install hexo-deployer-git and configure deploy:
-# Deploy example (hexo-deployer-git)
-# Replace <your-username> and <repo> with your target repository
+# Manual deployment. GitHub Actions uses the same generated public directory.
 deploy:
   type: git
   repo: https://github.com/littlestar1128/littlestar1128.github.io.git
   branch: gh-pages
-
-# If you prefer GitHub Actions deployment, the workflow is already included at .github/workflows/hexo-deploy.yml

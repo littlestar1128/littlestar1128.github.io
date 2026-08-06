@@ -1,5 +1,7 @@
 ---
 title: "Hello World"
+slug: hello-world
+permalink: /2024/05/01/hello-world/
 date: 2024-05-01 05:38:13
 updated: 2024-05-02 14:28:00
 author: "LiuXin"

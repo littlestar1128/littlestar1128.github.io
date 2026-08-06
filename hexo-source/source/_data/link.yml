@@ -1,0 +1,11 @@
+- class_name: 技术支持
+  class_desc: 本网站的搭建离不开这些开源项目和朋友
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: https://hexo.io/icon/favicon-196x196.png
+      descr: 快速、简洁且高效的博客框架
+    - name: WangSiXian🥝
+      link: https://cuteman0.top/
+      avatar: /img/friend_404.gif
+      descr: 朋友的博客
