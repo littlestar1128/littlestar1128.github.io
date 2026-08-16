@@ -1,15 +1,14 @@
 ---
 title: Git 提交与合并实战技巧
-date: 2026-08-15 01:34:21
+date: 2026-08-15 00:30:00
 tags:
   - Git
   - Linux
 categories:
-  - 学习
+  - Git
+cover: https://cdn.jsdelivr.net/gh/littlestar1128/cloud_img/20260815003000.png
 description: 面向 Git 初学者的提交、分支同步、冲突处理与推送实战指南。
 ---
-
-<a id="top"></a>
 
 # Git 提交与合并实战技巧
 
