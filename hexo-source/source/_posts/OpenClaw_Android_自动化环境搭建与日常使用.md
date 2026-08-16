@@ -3,12 +3,11 @@ title: 记录安卓养龙虾
 date: 2026-08-16 21:30:00
 tags:
   - 工作
-  - ai总结
+  - ai
 categories:
   - 学习
 cover: /image/2026/weekly-study-cover.jpg
 description: 记录安卓养龙虾
-
 ---
 
 # OpenClaw Android 本地自动化环境搭建与日常使用手册
