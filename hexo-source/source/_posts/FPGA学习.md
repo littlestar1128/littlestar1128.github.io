@@ -5,9 +5,8 @@ tags:
   - FPGA
   - VHDL
   - Verilog
-  - 嵌入式开发
 categories:
-  - 学习
+  - 技术笔记
 cover: /image/covers/fpga-learning.jpg
 description: 结合 KT22TAFMB 工程梳理 FPGA 模块结构，记录 FSMC 总线解码、KL 总线调度、键盘扫描、手轮计数及位流生成流程。
 ---

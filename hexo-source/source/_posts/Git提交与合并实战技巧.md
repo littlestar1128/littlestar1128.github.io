@@ -3,9 +3,9 @@ title: Git 提交与合并实战技巧
 date: 2026-08-15 00:30:00
 tags:
   - Git
-  - Linux
+  - 版本管理
 categories:
-  - Git
+  - 工具与实践
 cover: /image/covers/git-workflow.jpg
 description: 面向 Git 初学者的提交、分支同步、冲突处理与推送实战指南。
 ---

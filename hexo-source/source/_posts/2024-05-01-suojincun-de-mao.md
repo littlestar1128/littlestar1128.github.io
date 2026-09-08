@@ -7,9 +7,10 @@ date: 2024-05-01 07:40:45
 updated: 2024-05-02 14:50:15
 author: "LiuXin"
 tags:
-  - 生产力
+  - 猫咪
+  - 校园生活
 categories:
-  - school-life
+  - 生活记录
 ---
 
 <!-- Imported from static HTML: content preserved -->
