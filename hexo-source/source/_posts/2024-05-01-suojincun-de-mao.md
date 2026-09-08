@@ -1,5 +1,6 @@
 ---
 title: "锁金村的猫"
+cover: /image/covers/suojincun-cats.jpg
 slug: 锁金村的猫
 permalink: /2024/05/01/锁金村的猫/
 date: 2024-05-01 07:40:45

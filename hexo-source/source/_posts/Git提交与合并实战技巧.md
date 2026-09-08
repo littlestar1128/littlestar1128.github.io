@@ -6,7 +6,7 @@ tags:
   - Linux
 categories:
   - Git
-cover: https://cdn.jsdelivr.net/gh/littlestar1128/cloud_img/20260815003000.png
+cover: /image/covers/git-workflow.jpg
 description: 面向 Git 初学者的提交、分支同步、冲突处理与推送实战指南。
 ---
 

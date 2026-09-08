@@ -1,5 +1,6 @@
 ---
 title: Hexo 博客使用与发布说明
+cover: /image/covers/hexo-publishing.jpg
 date: 2026-08-06 23:30:00
 tags:
   - Hexo
@@ -191,20 +192,20 @@ description: 记录这一周学到的内容和遇到的问题
 建议按年份或主题管理图片，例如：
 
 ```text
-hexo-source/source/image/2026/weekly-study-cover.jpg
+hexo-source/source/image/covers/hexo-publishing.jpg
 hexo-source/source/image/cat/sanhua.jpg
 ```
 
 文章中引用：
 
 ```markdown
-![本周学习封面](/image/2026/weekly-study-cover.jpg)
+![Hexo 博客发布封面](/image/covers/hexo-publishing.jpg)
 ```
 
 如果需要文章封面，可以在文章头部增加：
 
 ```yaml
-cover: /image/2026/weekly-study-cover.jpg
+cover: /image/covers/hexo-publishing.jpg
 ```
 
 注意：

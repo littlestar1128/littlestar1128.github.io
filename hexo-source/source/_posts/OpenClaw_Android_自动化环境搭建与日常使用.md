@@ -6,7 +6,7 @@ tags:
   - ai
 categories:
   - 学习
-cover: /image/2026/weekly-study-cover.jpg
+cover: /image/covers/openclaw-android.jpg
 description: 记录安卓养龙虾
 ---
 
