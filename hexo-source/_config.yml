@@ -59,6 +59,10 @@ index_generator:
 per_page: 10
 pagination_dir: page
 
+# Keep the C++ tag URL distinct from C.
+tag_map:
+  'C++': cpp
+
 # Theme
 theme: butterfly
 
