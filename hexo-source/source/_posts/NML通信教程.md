@@ -1,6 +1,7 @@
 ---
 title: VCore NML 通信教程：从消息定义到 UI 状态回传
-date: 2026-10-19 00:30:42
+date: "2026-10-19 00:30:42"
+permalink: /2026/10/19/NML通信教程/
 tags:
   - NML
   - C++
