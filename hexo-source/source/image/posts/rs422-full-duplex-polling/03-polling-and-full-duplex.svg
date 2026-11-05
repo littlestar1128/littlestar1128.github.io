@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+<rect width="100%" height="100%" fill="white"/>
+<text x="70" y="84.12" text-anchor="start" fill="#172B4D" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="42" font-weight="700">轮询顺序与全双工能力是两件事</text>
+<text x="70" y="134.5" text-anchor="start" fill="#5C6D84" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400">上行发送者仍然轮换  下行却可以与上行重叠</text>
+<rect x="60" y="182" width="1480" height="350" rx="18" fill="#F5F8FC" stroke="none" stroke-width="2"/>
+<text x="90" y="235.94" text-anchor="start" fill="#172B4D" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700">严格轮询  请求结束后等待回复</text>
+<text x="90" y="320.64" text-anchor="start" fill="#2868D7" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">主机 TX  下行</text>
+<text x="90" y="410.64" text-anchor="start" fill="#C56A21" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">主机 RX  上行</text>
+<polyline points="350,311 1490,311" fill="none" stroke="#DCE5F0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="350,401 1490,401" fill="none" stroke="#DCE5F0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="350.0" y="280" width="152.0" height="62" rx="10" fill="#EAF1FF" stroke="none" stroke-width="2"/>
+<text x="426.0" y="320.64" text-anchor="middle" fill="#2868D7" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">请求1</text>
+<rect x="559.0" y="370" width="247.0" height="62" rx="10" fill="#FFF2E5" stroke="none" stroke-width="2"/>
+<text x="682.5" y="410.64" text-anchor="middle" fill="#C56A21" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">从机1回复</text>
+<rect x="939.0" y="280" width="152.0" height="62" rx="10" fill="#EAF1FF" stroke="none" stroke-width="2"/>
+<text x="1015.0" y="320.64" text-anchor="middle" fill="#2868D7" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">请求2</text>
+<rect x="1148.0" y="370" width="247.0" height="62" rx="10" fill="#FFF2E5" stroke="none" stroke-width="2"/>
+<text x="1271.5" y="410.64" text-anchor="middle" fill="#C56A21" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">从机2回复</text>
+<text x="350" y="487.78" text-anchor="start" fill="#5C6D84" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400">业务帧按顺序交替，没有利用上下行同时传输的能力。</text>
+<rect x="60" y="585" width="1480" height="390" rx="18" fill="#F5F8FC" stroke="none" stroke-width="2"/>
+<text x="90" y="639.94" text-anchor="start" fill="#172B4D" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700">协议允许并行时  下行与上行可以重叠</text>
+<rect x="611.0" y="685" width="209.5" height="173" rx="12" fill="#E9F5EF" stroke="#147D64" stroke-width="1"/>
+<rect x="1238.0" y="685" width="200.0" height="173" rx="12" fill="#E9F5EF" stroke="#147D64" stroke-width="1"/>
+<text x="90" y="738.64" text-anchor="start" fill="#2868D7" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">主机 TX  下行</text>
+<text x="90" y="828.64" text-anchor="start" fill="#C56A21" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">主机 RX  上行</text>
+<polyline points="350,729 1490,729" fill="none" stroke="#DCE5F0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="350,819 1490,819" fill="none" stroke="#DCE5F0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="350.0" y="698" width="152.0" height="62" rx="10" fill="#EAF1FF" stroke="none" stroke-width="2"/>
+<text x="426.0" y="738.64" text-anchor="middle" fill="#2868D7" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">授权1</text>
+<rect x="616.0" y="698" width="199.5" height="62" rx="10" fill="#EAF1FF" stroke="none" stroke-width="2"/>
+<text x="715.75" y="738.64" text-anchor="middle" fill="#2868D7" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">配置2</text>
+<rect x="967.5" y="698" width="152.0" height="62" rx="10" fill="#EAF1FF" stroke="none" stroke-width="2"/>
+<text x="1043.5" y="738.64" text-anchor="middle" fill="#2868D7" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">授权2</text>
+<rect x="1243.0" y="698" width="190.0" height="62" rx="10" fill="#EAF1FF" stroke="none" stroke-width="2"/>
+<text x="1338.0" y="738.64" text-anchor="middle" fill="#2868D7" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">配置3</text>
+<rect x="559.0" y="788" width="323.0" height="62" rx="10" fill="#FFF2E5" stroke="none" stroke-width="2"/>
+<text x="720.5" y="828.64" text-anchor="middle" fill="#C56A21" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">从机1回复</text>
+<rect x="1176.5" y="788" width="313.5" height="62" rx="10" fill="#FFF2E5" stroke="none" stroke-width="2"/>
+<text x="1333.25" y="828.64" text-anchor="middle" fill="#C56A21" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">从机2回复</text>
+<text x="350" y="912.78" text-anchor="start" fill="#147D64" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="700">绿色区域中，主机下发配置，同时接收另一从机的回复。</text>
+<text x="350" y="949.92" text-anchor="start" fill="#5C6D84" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400">配置帧不触发立即回复；从机等到单独授权后才回传。</text>
+<text x="70" y="1034.06" text-anchor="start" fill="#5C6D84" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21" font-weight="400">图 3 为自定义协议时序示例，不是标准 Modbus RTU 时序。帧长及间隔仅作示意。</text>
+<text x="1530" y="1077.2" text-anchor="end" fill="#5C6D84" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" font-weight="400">共享上行线上始终最多一个从机发送</text>
+</svg>
