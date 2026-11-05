@@ -20,7 +20,7 @@ avatar:
   effect: false
 
 default_top_img: /assets/xuanwuhu.jpg
-index_img: /assets/xuanwuhu.jpg
+index_img: /assets/xuanwuhu-1920.webp
 archive_img: /assets/xuanwuhu.jpg
 tag_img: /assets/xuanwuhu.jpg
 category_img: /assets/xuanwuhu.jpg
@@ -66,6 +66,13 @@ busuanzi:
   site_uv: true
   site_pv: true
   page_pv: true
+
+# Fetch the generated index only after opening the search dialog.
+search:
+  use: local_search
+  placeholder: 搜索文章标题和正文
+  local_search:
+    preload: false
 
 # Keep the theme's image zoom available from the same origin.
 lightbox: medium_zoom

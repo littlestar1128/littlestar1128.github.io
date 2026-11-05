@@ -66,6 +66,13 @@ tag_map:
 # Theme
 theme: butterfly
 
+# Generate the full-text index from published posts during the Hexo build.
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
+
 # Manual deployment. GitHub Actions uses the same generated public directory.
 deploy:
   type: git

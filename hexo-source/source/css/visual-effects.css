@@ -1,3 +1,10 @@
+/* Butterfly sets the desktop background inline on the homepage header. */
+@media (max-width: 767px) {
+  #page-header.full_page {
+    background-image: url('/assets/xuanwuhu-960.webp') !important;
+  }
+}
+
 /* Small, pointer-only lift; leave card dimensions and links unchanged. */
 #recent-posts .recent-post-item:not(.ads-wrap) {
   transition: transform 220ms ease, box-shadow 220ms ease;
