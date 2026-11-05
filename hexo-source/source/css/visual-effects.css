@@ -47,3 +47,91 @@
     transition-duration: 1ms !important;
   }
 }
+
+/* First-page reading guide. Uses Butterfly's light/dark theme colors. */
+.start-here {
+  padding: clamp(16px, 3vw, 28px);
+  border-radius: 8px;
+  background: var(--card-bg);
+  box-shadow: var(--card-box-shadow);
+  line-height: 1.55;
+}
+
+.start-here__eyebrow {
+  margin: 0;
+  padding-inline-start: 9px;
+  border-inline-start: 3px solid var(--default-bg-color);
+  font-size: 0.85rem;
+  font-weight: 650;
+}
+
+#start-here-title {
+  margin: 8px 0 3px;
+  font-size: clamp(1.3rem, 2.3vw, 1.65rem);
+}
+
+.start-here__intro {
+  margin: 0 0 15px;
+}
+
+.start-here__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.start-here__link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  height: 100%;
+  padding: 11px 31px 11px 12px;
+  border: 1px solid var(--light-grey);
+  border-color: color-mix(in srgb, var(--font-color) 18%, transparent);
+  border-radius: 7px;
+  color: var(--font-color);
+}
+
+.start-here__link:hover,
+.start-here__link:focus-visible {
+  border-color: var(--default-bg-color);
+  color: var(--font-color);
+}
+
+.start-here__link:focus-visible {
+  outline: 2px solid var(--default-bg-color);
+  outline-offset: 2px;
+}
+
+.start-here__topic,
+.start-here__description {
+  font-size: 0.88rem;
+}
+
+.start-here__title {
+  color: var(--text-highlight-color);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.start-here__arrow {
+  position: absolute;
+  top: 11px;
+  inset-inline-end: 11px;
+  font-weight: 700;
+}
+
+.home-reading__latest {
+  margin: 21px 0 10px;
+  font-size: 1.15rem;
+}
+
+@media (max-width: 620px) {
+  .start-here__list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

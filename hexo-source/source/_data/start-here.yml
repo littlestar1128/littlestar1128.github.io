@@ -1,0 +1,15 @@
+# Edit these entries to change the featured articles on the first homepage.
+- topic: 数控系统
+  title: LinuxCNC 学习笔记
+  description: 理清 HAL 控制信号、NML 消息和 EtherCAT 各自负责什么。
+  path: /2026/10/22/LinuxCNC假期学习笔记/
+
+- topic: 工业通信
+  title: RS-422 轮询时序
+  description: 看懂四线一主多从怎么接、从机什么时候能应答。
+  path: /2026/11/05/rs422-full-duplex-polling/
+
+- topic: 嵌入式网络
+  title: uIP 1.0 协议栈
+  description: 顺着 TCP 回显看 uIP 怎样复用缓冲区、处理应答和重传。
+  path: /2026/10/23/uip10-porting-blog/

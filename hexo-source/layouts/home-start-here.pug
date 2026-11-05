@@ -1,0 +1,24 @@
+extends includes/layout.pug
+
+block content
+  include ./includes/mixins/indexPostUI.pug
+  - const featuredPosts = site.data['start-here']
+  if is_home_first_page() && Array.isArray(featuredPosts) && featuredPosts.length
+    //- Match Butterfly's no-card wrapper for the normal post list.
+    .home-reading.nc
+      section.start-here(aria-labelledby='start-here-title')
+        p.start-here__eyebrow 精选阅读
+        h2#start-here-title 从这里开始
+        p.start-here__intro 第一次来？挑一个你感兴趣的方向。
+        ul.start-here__list
+          each entry in featuredPosts
+            li
+              a.start-here__link(href=url_for(entry.path))
+                span.start-here__topic= entry.topic
+                span.start-here__title= entry.title
+                span.start-here__description= entry.description
+                span.start-here__arrow(aria-hidden='true') →
+      h2.home-reading__latest 最新文章
+      +indexPostUI
+  else
+    +indexPostUI
