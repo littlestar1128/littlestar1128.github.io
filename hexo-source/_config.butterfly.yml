@@ -67,9 +67,17 @@ busuanzi:
   site_pv: true
   page_pv: true
 
+# Keep the theme's image zoom available from the same origin.
+lightbox: medium_zoom
+CDN:
+  option:
+    medium_zoom: /vendor/medium-zoom/1.1.0/medium-zoom.min.js
+
 inject:
   head:
     - <link rel="stylesheet" href="/css/universe.css">
+    - <link rel="stylesheet" href="/css/visual-effects.css">
   bottom:
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>
+    - <script defer src="/js/visual-effects.js"></script>

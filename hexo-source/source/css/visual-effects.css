@@ -1,0 +1,42 @@
+/* Small, pointer-only lift; leave card dimensions and links unchanged. */
+#recent-posts .recent-post-item:not(.ads-wrap) {
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+#recent-posts .recent-post-item .post_cover .post-bg {
+  transition: transform 240ms ease, filter 240ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  #recent-posts .recent-post-item:not(.ads-wrap):hover {
+    transform: translateY(-4px);
+  }
+
+  #recent-posts .recent-post-item:hover .post_cover .post-bg {
+    transform: scale(1.045);
+  }
+}
+
+@media (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) {
+  #recent-posts .recent-post-item:hover .post_cover .post-bg {
+    transform: none;
+  }
+}
+
+#article-container img.medium-zoom-image[role="button"]:focus-visible {
+  outline: 2px solid var(--btn-bg, #49b1f5);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #recent-posts .recent-post-item:not(.ads-wrap),
+  #recent-posts .recent-post-item .post_cover .post-bg {
+    transition: none;
+  }
+
+  /* Medium Zoom needs transitionend even when motion is reduced. */
+  .medium-zoom-overlay,
+  .medium-zoom-image {
+    transition-duration: 1ms !important;
+  }
+}
