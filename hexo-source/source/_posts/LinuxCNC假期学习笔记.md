@@ -12,6 +12,7 @@ categories:
   - 技术笔记
 cover: /image/covers/linuxcnc-holiday-study.jpg
 description: 从 HAL 引脚、信号和实时线程入手，通过自定义组件与 NML 收发实验，串起 CMake 构建、EtherCAT 接入及七天学习练习，附常见问题排查表。
+summary: "以 LinuxCNC 2.9 为学习基线，在不连接执行机构的独立 HAL 会话中，用正弦信号驱动自定义增益组件，练习引脚连线、实时线程调度和波形观察；用 CMake 构建本机 NML 消息收发示例。另介绍 EtherCAT 从识别设备到映射 PDO 的接入步骤，说明进入 OP 状态不等于控制正确，并附七天练习和故障速查。"
 ---
 
 # LinuxCNC 假期学习笔记：HAL、NML、CMake 与 EtherCAT

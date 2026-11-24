@@ -8,6 +8,7 @@ categories:
   - 工具与实践
 cover: /image/covers/git-workflow.jpg
 description: 面向 Git 初学者的提交、分支同步、冲突处理与推送实战指南。
+summary: "这篇指南面向在 Linux 终端使用 Git 的初学者，演示功能分支的创建、选择性暂存、提交、同步主分支和推送，并讲解冲突处理、取消未完成的操作及迁移个人改动。文章强调先用 git status 确认状态，提交前检查暂存差异；推送遇到 non-fast-forward 拒绝时，先比较双方独有的提交，不要直接强推。"
 ---
 
 # Git 提交与合并实战技巧

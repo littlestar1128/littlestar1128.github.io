@@ -12,6 +12,7 @@ categories:
   - 技术笔记
 cover: /image/covers/uip10-porting.jpg
 description: 从共享包缓冲区、TCP 状态机、序号与 ACK 入手，梳理 uIP 1.0 的重传、应用回调、MSS、窗口和定时驱动，附最小移植工程与中文资料校注。
+summary: "文章以经典 uIP 1.0 的 IPv4/TCP 实现为限，用 TCP 回显说明多连接如何复用包缓冲区，以及协议栈如何维护连接状态、序号和 ACK，并在超时时回调应用重建待重传数据。另解释 MSS、零窗口与 TCP 和 ARP 定时器的独立驱动，附最小移植示例及中文资料校注。"
 ---
 
 # uIP 1.0 协议栈原理：从共享缓冲区到可靠传输

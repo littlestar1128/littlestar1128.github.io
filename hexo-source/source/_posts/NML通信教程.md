@@ -11,6 +11,7 @@ categories:
   - 技术笔记
 cover: /image/covers/nml-communication.jpg
 description: 结合 VCore 消息源码，梳理 NML 消息定义、format 与 update、通道绑定及 Auto 到 UI 的状态回传链路，并说明新增字段的接入与验证方法。
+summary: "文章结合 VCore 源码说明 NML 通道如何绑定 format、按消息 type 分派并由 update 处理字段，梳理 Auto 经共享状态、taskmgr 和 NML 向 UI 回传的链路。以 IsXRadiusPrg 为未实施的接入示例，说明如何确定字段来源和消息归属、核对读写方版本并逐层验证。"
 ---
 
 # VCore NML 通信教程：从消息定义到 UI 状态回传

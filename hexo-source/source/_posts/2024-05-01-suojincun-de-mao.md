@@ -11,6 +11,7 @@ tags:
   - 校园生活
 categories:
   - 生活记录
+summary: "这篇相册记录了锁金村门卫处、教室里和猫屋旁的猫。作者给照片配上小注，还打趣说，教室里的那只猫看得懂概率论。"
 ---
 
 <!-- Imported from static HTML: content preserved -->

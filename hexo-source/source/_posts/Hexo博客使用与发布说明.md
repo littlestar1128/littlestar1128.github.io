@@ -9,6 +9,7 @@ tags:
 categories:
   - 工具与实践
 description: 记录本博客从新建文章、本地预览、Git 提交到 GitHub Pages 自动部署的完整操作流程。
+summary: "本文记录 Hexo 与 Butterfly 博客的发布流程，涵盖新电脑环境配置、Markdown 写作与配图、本地构建和预览。确认无误后，只暂存本次改动，直接推送或经 Pull Request 合并到 master，由 GitHub Actions 构建并部署到 GitHub Pages。文中还区分了构建成功与正式上线，并说明如何排查推送冲突、部署失败和新文章 404。"
 ---
 
 本文记录 Leo's Blog 的日常使用方法，适用于当前使用的 Hexo、Butterfly 和 GitHub Pages 自动部署方案。以后更换电脑、发布文章或排查部署问题时，可以直接按照本文操作。

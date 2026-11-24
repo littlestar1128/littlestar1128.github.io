@@ -9,6 +9,7 @@ categories:
   - 工具与实践
 cover: /image/covers/openclaw-android.jpg
 description: 记录安卓养龙虾
+summary: "记录在小米 HyperOS 上用 Termux、Shizuku、rish 和本地 OpenClaw Gateway 搭建手机自动化。已验证打开淘宝和通过剪贴板输入中文；购物 Skill 用于搜索比价，下单和支付须人工确认。重启后需恢复 VPN、启动 Shizuku 并检查 Gateway，Gateway 自启尚未配置。"
 ---
 
 # OpenClaw Android 本地自动化环境搭建与日常使用手册

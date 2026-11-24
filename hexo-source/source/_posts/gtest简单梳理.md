@@ -11,6 +11,7 @@ categories:
   - 技术笔记
 cover: /image/covers/gtest-basics.jpg
 description: 从第一条 TEST 到 TEST_F 测试夹具，梳理 EXPECT 与 ASSERT、字符串和浮点断言、测试筛选，并以 VCore 复位清零 G50 偏移为例练习准备、执行与检查。
+summary: "本文介绍如何用 GoogleTest 编写 TEST、用 TEST_F 和 SetUp 复用初始化，说明 EXPECT 与 ASSERT 失败后的执行差异、字符串和浮点断言的选择，以及如何筛选用例。VCore 示例将 G50 保留策略设为 0、将两处偏移设为非零，再调用实际复位函数，检查两处偏移是否清零。"
 ---
 
 # GoogleTest（gtest）入门与 VCore 实战

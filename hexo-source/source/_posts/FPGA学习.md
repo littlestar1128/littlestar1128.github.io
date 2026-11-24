@@ -9,6 +9,7 @@ categories:
   - 技术笔记
 cover: /image/covers/fpga-learning.jpg
 description: 结合 KT22TAFMB 工程梳理 FPGA 模块结构，记录 FSMC 总线解码、KL 总线调度、键盘扫描、手轮计数及位流生成流程。
+summary: "笔记以 KT22TAFMB 工程为例，梳理顶层模块、FSMC 寄存器映射、KL 总线调度、键盘扫描和手轮 AB 相计数。文中对照两个读状态机，指出单次读取提前撤销读使能却继续采样，可能覆盖有效数据；另记录按键极性修改、位流生成及 ChipWatcher 调试流程。"
 ---
 
 # FPGA 学习
