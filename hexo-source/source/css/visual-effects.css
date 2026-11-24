@@ -130,6 +130,31 @@
   font-size: 1.15rem;
 }
 
+/* Native disclosure: readable without JavaScript and in dark mode. */
+#post .post-ai-summary {
+  margin: 0 0 1.5rem;
+  padding: .7rem 1rem;
+  border-inline-start: 3px solid var(--btn-bg, #4b86a1);
+  border-radius: 0 6px 6px 0;
+  background: var(--blockquote-bg, rgba(114, 145, 160, .10));
+  color: var(--font-color, inherit);
+}
+#post .post-ai-summary > summary {
+  display: list-item;
+  cursor: pointer;
+  color: var(--text-highlight-color, inherit);
+  font-weight: 650;
+}
+#post .post-ai-summary > summary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+#post .post-ai-summary > p {
+  margin: .45rem 0 .15rem;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 620px) {
   .start-here__list {
     grid-template-columns: minmax(0, 1fr);
